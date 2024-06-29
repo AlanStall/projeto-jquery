@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Éo-umme</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-page">
+        <div class="header-content">
+          <img src="images/logo.png" alt="Logo" class="logo-image" />
+          <div class="presentation-store">
+            <text class="title-store">éo-umme</text>
+            <text class="text-store">
+              E-commerce de Utilitários e Roupas em Geral
+            </text>
+          </div>
+        </div>
+
+        <nav class="align-buttons-header">
+          <button id="toRegister" class="buttons-app">Sou novo por aqui</button>
+          <button id="toLogin" class="buttons-app">Já tenho cadastro</button>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <img
+        src="images/background-image.jpg"
+        alt="Imagem com roupas, botas e caneca sobre uma manta"
+        class="background-image-page"
+      />
+      <div id="form-to-register" class="box-form-to-entry">
+        <form id="form-to-register" class="form-to-entry">
+          <div class="align-title-in-box">
+            <p>Cadastre-se</p>
+          </div>
+          <input
+            type="text"
+            id="full-name"
+            placeholder="Nome Completo"
+            class="input-form"
+          />
+          <input
+            type="text"
+            id="cep"
+            placeholder="CEP do seu endereço"
+            class="input-form"
+          />
+          <input
+            type="email"
+            id="email"
+            placeholder="E-mail"
+            class="input-form"
+          />
+          <input
+            type="password"
+            id="senha"
+            placeholder="Escolha sua senha"
+            class="input-form"
+          />
+
+          <div class="align-button-in-box">
+            <button type="submit" class="buttons-app">Cadastrar</button>
+          </div>
+        </form>
+      </div>
+
+      <div id="form-to-login" class="box-form-to-entry">
+        <form id="form-to-login" class="form-to-entry">
+          <div class="align-title-in-box">
+            <p>Login</p>
+          </div>
+          <input
+            type="email"
+            id="emailLogin"
+            placeholder="E-mail"
+            class="input-form"
+          />
+          <input
+            type="password"
+            id="senhaLogin"
+            name="senhaLogin"
+            placeholder="Digite sua senha"
+            class="input-form"
+          />
+
+          <div class="align-button-in-box">
+            <button type="submit" class="buttons-app">Entrar</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer></footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

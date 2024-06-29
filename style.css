@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.header-page {
+  background-color: #313131;
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.presentation-store {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-left: 24px;
+}
+
+.title-store {
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+
+.text-store {
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+.align-buttons-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 24px;
+}
+.background-image-page {
+  width: 100vw;
+  height: calc(100vh - 10vh);
+}
+
+.box-form-to-entry {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: none;
+}
+
+.form-to-entry {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  align-items: start;
+  gap: 20px;
+}
+
+.align-button-in-box {
+  width: 100%;
+  margin-top: 36px;
+}
+
+.logo-image {
+  border-radius: 12px;
+  width: 156px;
+  height: 156px;
+}
+
+.buttons-app {
+  background-color: #fe7433;
+  border-radius: 24px;
+  border-style: solid;
+  border-width: 0;
+  height: 40px;
+  width: 168px;
+  font-size: 0.825rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 2px 2px rgba(255, 255, 255, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.buttons-header:hover {
+  background-color: #d4d3d3;
+  color: #ff5f14;
+}
+
+.buttons-header:active {
+  background-color: #bbbbbb;
+  color: #ff5f14;
+}
+
+.input-form {
+  width: calc(100% - 20px);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  border-color: lightgray;
+  padding: 8px;
+  outline: none;
+  color: gray;
+}
+
+.align-title-in-box {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+  color: gray;
+}
+
+input::placeholder {
+  color: #bbbbbb;
+}
